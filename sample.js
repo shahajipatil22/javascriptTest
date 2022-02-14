@@ -32,8 +32,11 @@ var coder = {
 coder.speakNow();
 
 function number(n) {
-    var add = 5;
+    var add = 5/9;
     return;
     n + add;
      }
+
+for(i;i<10){
 console.log(number(10));
+}
