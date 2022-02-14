@@ -16,3 +16,24 @@ console.log(codeJS);
 
 console.log(typeof codeJS);
      //output is object
+console.log(null==undefined);
+//output is true
+
+console.log(null===undefined);
+//output is false
+
+var coder = {
+      name: "Peter",
+      age: 27,
+      speak() {
+      console.log(this.name);
+  }
+};
+coder.speakNow();
+
+function number(n) {
+    var add = 5;
+    return;
+    n + add;
+     }
+console.log(number(10));
