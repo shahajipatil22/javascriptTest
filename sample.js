@@ -40,3 +40,6 @@ function number(n) {
 for(i;i<10){
 console.log(number(10));
 }
+
+
+System.out.println("sjhahaji");
